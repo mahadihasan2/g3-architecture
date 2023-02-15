@@ -2,3 +2,29 @@
 	margin: 0;
 	padding: 0;
 }
+
+header {
+	background-color: rgba(233, 183, 163, 0.637);
+}
+.top-nav {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	padding-top: 50px;
+}
+.nav-title {
+	font-size: 25px;
+}
+
+.nav-item a {
+	padding-left: 50px;
+	text-decoration: none;
+	font-size: 25px;
+	font-weight: 500;
+	color: black;
+}
+
+.brand-new-section {
+	text-align: center;
+	margin-top: 8%;
+}
