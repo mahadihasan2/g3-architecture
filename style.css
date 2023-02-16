@@ -111,6 +111,22 @@ header {
 	font-weight: bold;
 }
 
+.sponsor {
+	margin: 50px 0;
+	text-align: center;
+}
+
+.h1-text {
+	font-size: 40px;
+}
+
+.brands {
+	margin: 30px 0;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
 footer {
 	border-radius: 5px;
 	background-color: #fff4e7;
