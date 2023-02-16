@@ -65,6 +65,7 @@ header {
 	font-weight: bold;
 	background-color: #ff900e;
 	border-radius: 5px;
+	cursor: pointer;
 }
 
 .top-image img {
@@ -115,6 +116,7 @@ header {
 	background-color: #ff900e;
 	color: white;
 	font-weight: bold;
+	cursor: pointer;
 }
 
 .experience {
@@ -171,6 +173,7 @@ header {
 	background-color: #ff900e;
 	color: white;
 	padding: 20px 25px;
+	cursor: pointer;
 }
 .exp-btn span {
 	font-size: 12px;
