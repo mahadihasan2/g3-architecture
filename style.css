@@ -111,6 +111,65 @@ header {
 	font-weight: bold;
 }
 
+.experience {
+	display: flex;
+	grid-template-columns: 1fr 1fr;
+	margin: 120px 0;
+}
+
+.experi-h1 {
+	border-left: 5px solid #ff900e;
+	padding-left: 20px;
+	font-size: 35px;
+	margin: 25px 0;
+}
+
+.experi-text {
+	padding-right: 50px;
+	width: 50%;
+}
+
+.experi-image {
+	width: 50%;
+}
+
+.experi-image img {
+	width: 100%;
+}
+
+.experi-cards {
+	display: flex;
+	flex-direction: column;
+}
+
+.experi-card {
+	padding: 20px 30px;
+}
+
+.exp-title {
+	font-size: 16px;
+	padding: 5px 0;
+}
+
+.exp-btn-box {
+	display: flex;
+	justify-content: center;
+	margin-top: -200px;
+}
+
+.exp-btn {
+	border: 0;
+	font-weight: bold;
+	font-size: 25px;
+	border-radius: 5px;
+	background-color: #ff900e;
+	color: white;
+	padding: 20px 25px;
+}
+.exp-btn span {
+	font-size: 12px;
+}
+
 .facts {
 	margin: 120px 0;
 }
@@ -149,6 +208,26 @@ header {
 	justify-content: space-around;
 }
 
+.FAQ h1 {
+	text-align: center;
+}
+
+.FAQ {
+	margin: 120px 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.FAQ ol {
+	width: 80%;
+}
+
+.qanda li {
+	padding: 10px;
+}
+
 footer {
 	border-radius: 5px;
 	background-color: #fff4e7;
@@ -158,4 +237,7 @@ footer p {
 	padding: 20px;
 	text-align: center;
 	margin: 80px 0;
+}
+
+@media screen and (max-width: 576px) {
 }
