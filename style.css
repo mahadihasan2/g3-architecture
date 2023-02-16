@@ -12,7 +12,7 @@ body {
 }
 
 .container {
-	width: 1440px;
+	width: 1140px;
 	margin: 0px auto;
 }
 
@@ -64,4 +64,10 @@ header {
 	font-weight: bold;
 	background-color: #ff900e;
 	border-radius: 5px;
+}
+
+.top-image img {
+	width: 100%;
+	margin-top: 50px;
+	margin-bottom: 45px;
 }
