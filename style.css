@@ -32,6 +32,7 @@ header {
 
 .nav-item {
 	display: flex;
+	flex-direction: row;
 	justify-content: flex-end;
 }
 
@@ -82,6 +83,11 @@ header {
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
 	grid-gap: 15px;
+	justify-items: center;
+}
+
+.image-grid img {
+	width: 95%;
 }
 
 .feature-text {
@@ -113,8 +119,13 @@ header {
 
 .experience {
 	display: flex;
-	grid-template-columns: 1fr 1fr;
+	flex-direction: row;
 	margin: 120px 0;
+}
+
+.experi-text {
+	padding-right: 50px;
+	width: 50%;
 }
 
 .experi-h1 {
@@ -122,11 +133,6 @@ header {
 	padding-left: 20px;
 	font-size: 35px;
 	margin: 25px 0;
-}
-
-.experi-text {
-	padding-right: 50px;
-	width: 50%;
 }
 
 .experi-image {
@@ -178,8 +184,8 @@ header {
 	margin: 30px 0;
 	display: flex;
 	align-items: center;
+	flex-direction: row;
 	justify-content: space-around;
-	flex-wrap: wrap;
 }
 
 .card {
@@ -190,6 +196,10 @@ header {
 	border: 1px solid #ff900e;
 	border-radius: 5px;
 	padding: 20px;
+}
+
+.card:hover {
+	transform: scale(90%);
 }
 
 .sponsor {
@@ -240,4 +250,81 @@ footer p {
 }
 
 @media screen and (max-width: 576px) {
+	.container {
+		width: 100%;
+	}
+	header {
+		text-align: center;
+	}
+	.top-nav {
+		display: grid;
+		grid-template-columns: repeat(1, 1fr);
+		align-items: center;
+		padding-top: 30px;
+	}
+	.nav-item {
+		flex-direction: column;
+		justify-content: center;
+	}
+
+	.brand-new-section {
+		text-align: center;
+		margin-top: 40px;
+	}
+	.top-title {
+		font-size: 35px;
+	}
+	.top-paragraph {
+		width: 90%;
+		padding: 15px 0;
+	}
+	.top-image img {
+		width: 80%;
+	}
+	.our-feature {
+		grid-template-columns: repeat(1, 1fr);
+	}
+
+	.feature-text {
+		margin-top: 20px;
+		margin-left: 20px;
+	}
+
+	.image-grid {
+		grid-template-columns: repeat(1, 1fr);
+		grid-gap: 15px;
+	}
+	.experience {
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	.experi-text {
+		padding-right: 50px;
+		width: 70%;
+	}
+	.experi-image {
+		width: 80%;
+	}
+	.exp-btn-box {
+		display: flex;
+		justify-content: center;
+		margin-top: -50px;
+	}
+	.facts {
+		padding: 20px;
+	}
+
+	.testimonial {
+		flex-direction: column;
+	}
+	.card {
+		margin: 10px;
+	}
+	.brands {
+		flex-direction: column;
+	}
+	.logos {
+		margin: 10px;
+	}
 }
